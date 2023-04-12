@@ -1,0 +1,84 @@
+.devenir-formateur-form * {
+    display:block;
+    width:93.4%;
+    margin-top:1%;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    width:94%;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    margin-top:3px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 42px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+.inline-form{
+    display:inline-block;
+    width:45%;
+    margin-right:3%;
+}
+
+.inline-form * {
+    width:100%;
+}
+.required {
+    color:red;
+    display:inline;
+}
+.submit-dvformateur{
+    width:150px;
+    float:right;
+    margin-right:6.5%;
+}
+
+input{
+    border: 1px solid rgba(148, 148, 148, 0.9);
+    border-radius: 5px;
+    padding:5px;
+}
+
+label {
+    font-weight:bold;
+}
+
+input[type=email]{
+    border: 1px solid rgba(148, 148, 148, 0.9);
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    cursor:pointer;
+    padding:10px;
+    font-weight: 600;
+    color:white;
+    background-color: #F14D5D;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=submit]:hover{
+
+    transform:scale(1.05);
+    background-color: #2575fc;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.error {
+    color:red;
+}
+
